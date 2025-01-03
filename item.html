@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Вишиванка з рослинним орнаментом Lito</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header" id="anchor">
+                <div class="header__div flex flex-space-between">
+                    <button class="button button--burger-menu"></button>
+                    <div class="header__menu-mob-popup desktop--header-list">
+                        <button class=" button button-close"></button>
+                        <ul class="header__left-menu flex flex--col">
+                            <li class="header__left-menu__background"><a href="catalog.html" class="link header__left-menu__link link--red">Каталог</a></li>
+                            <li><a href="" class="link header__left-menu__link">Знижки</a></li>
+                            <li><a href="" class="link header__left-menu__link">Блог</a></li>
+                            <li><a href="" class="link header__left-menu__link">Про нас</a></li>
+                        </ul>
+                        <div class="flex header__menu desktop--hidden">
+                            <ul class="header__menu__lang">
+                                <li><button class="button">UA</button></li>
+                                <li><button class="button">RU</button></li>
+                                <li><button class="button">EN</button></li>
+                            </ul>
+                            <ul class="header__menu-currency">
+                                <li><button class="button header__menu-currency__hryvhja"></button></li>
+                                <li><button class="button header__menu-currency__dollar"></button></li>
+                                <li><button class="button header__menu-currency__euro"></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="/images/etnodim-logo.svg" alt="logo" class="logo logo--header">
+                    <div class="header__right-menu flex">
+                        <div class="header__right-menu__mob-hidden">
+                            <button class="button header__right-menu__lang">UA</button>
+                            <ul class="header__menu__lang__select select--popup">
+                                <li><button class="button">RU</button></li>
+                                <li><button class="button">EN</button></li>
+                            </ul>
+                            <button class="button header__menu-currency__hryvhja"><span class="header__menu-currency__hryvhja__select"></span></button>
+                            <ul class="header__menu__currency__select select--popup">
+                                <li class="header__menu__currency__dollar"><button></button></li>
+                                <li class="header__menu__currency__euro"><button></button></li>
+                            </ul>
+                            <span class="mob">+38 097 888 92 92</span>
+                        </div>
+                        <!-- -------------------------------------------------------------------- -->
+                        <button class="button button--search"></button>
+                        <a class="button button--cart"><sub class="cart__sub">0</sub></a>
+                    </div>
+                </div>
+            </header>
+<!-- ---------MAIN PART------------------MAIN PART--------------MAIN PART---------------------------------------------------------------- -->
+            <main class="item-card">
+                <a href="" class="link link--back-to-catalog desktop--hidden"><span class="bg-img-link"></span>Жіночі вишиванки</a>
+<!-- --------------------------------------------------------------------------------------------------------------------------->
+                <div class="mob--hidden link-sequence card--link-sequence">
+                    <a href="" class="link link-sequence__item">Головна</a>
+                    <a href="" class="link link-sequence__item">Жінкам</a>
+                    <a href="" class="link link-sequence__item">Жіночі вишиванки</a>
+                    <a href="" class="link link-sequence__item last--in--sequence">Вишиванка з рослинним орнаментом Lito</a>
+                </div>
+
+                <div class="grid--2col item-card--grid">
+                    <div class="gallery">
+                        <img src="/images/card main.png" alt="" class="gallery__main-img">
+                        <div class="carousel-container">
+                            <div class="carousel-container__items">
+                                <div class="carousel-container__carousel__item">
+                                    <img src="/images/card 2.png" alt="" class="carousel-container__carousel__item__img">
+                                </div>
+                                <div class="carousel-container__carousel__item">
+                                    <img src="/images/card 3.png" alt="" class="carousel-container__carousel__item__img">
+                                </div>
+
+                                <div class="carousel-container__carousel__item">
+                                    <img src="/images/card 4.png" alt="" class="carousel-container__carousel__item__img">
+                                </div>
+
+                                <div class="carousel-container__carousel__item video--wrapper">
+                                    <video src="" type="video/mp4" class="item--video" poster="/images/card5.png"></video>
+                                    <div class="play-btn--div">
+                                        <button class="button play--btn"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-container__button-left button prev--btn desktop--hidden" id="prevBtn"></button>
+                            <button class="carousel-container__button-right button next--btn desktop--hidden" id="nextBtn"></button>
+                        </div>
+                    </div>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
+                    <div class="desktop--card-description">
+                        
+                        <form action="" class="form purchase-form">
+                            <span class="subtitle mob--hidden">entodim</span>
+                            <h2 class="item-card__h2 headline2">Вишиванка з рослинним орнаментом Lito</h2>
+                            <fieldset class="purchase-form__quantity flex">
+                                <span class="purchase-form__quantity__span">Колір: бежевий</span>
+                                <div class="quantity">                      
+                                    <button type="button" class="quantity__sutract button" id="subsctractBtn"></button>
+                                    <input type="number" class="quantity__input" value="1" id="quantityInput">
+                                    <button type="button" class="quantity__add button" id="addBtn"></button>
+                                </div> 
+                            </fieldset>
+                        
+                            <fieldset class="purchase-form__size">
+                                <div class="purchase-form__size__selection flex">
+                                    <input type="radio" id="XXS" name="size" class="radio">
+                                    <label for="XXS" class="form__label">32 XXS</label>
+                        
+                                    <input type="radio" id="XS" name="size" class="radio">
+                                    <label for="XS" class="form__label">34 XS</label>
+                        
+                                    <input type="radio" id="S" name="size" class="radio">
+                                    <label for="S" class="form__label">36 S</label>
+                        
+                                    <input type="radio" id="M" name="size" class="radio">
+                                    <label for="M" class="form__label">38 M</label>
+                        
+                                    <input type="radio" id="L" name="size" class="radio">
+                                    <label for="L" class="form__label">40 L</label>
+                        
+                                    <input type="radio" id="XL" name="size" class="radio">
+                                    <label for="XL" class="form__label">42 XL</label>
+                                </div>
+                                <a href="" class="link purchase-form__size__size-table-link">Таблиця розмірів</a>
+                            </fieldset>
+                            <span class="form purchase-form__out-of-stock" id="outOfStock">Тимчасово немає на складі</span>
+                            <span class="item-price purchase--price">2 800 грн.</span>
+                            <input type="submit" value="купити" class="purchase-form__btn link-btn button" id="buyBtn">
+                        </form>
+                        <!--  -->
+                        <div class="cart-opened" id="purchased">                         
+                            <span class="cart-opened__added">Товар додано до кошика</span>
+                            <form class="cart-opened__form">
+                                <div class="flex cart-opened__form--wrap">
+                                    <button class="button cart-opened--closer" id="purchasedCloser"></button>
+                                    <div class="cart-opened__form__img">
+                                        <img src="images/card main.png" alt="" class="cart-opened--img">
+                                    </div>
+                                    <div class="cart-opened__form__info grid--2col">
+                                        <span class="cart-opened__form__info__name">Вишиванка з рослинним орнаментом Lito</span>
+                                        <span class="cart-opened__form__info__span">Колір</span>
+                                        <span class="cart-opened__form__info__span">бежевий</span>
+                                        <label for="size" class="cart-opened__form__info__span">Розмір</label>
+                                        <select name="size" id="size" class="select size--select">
+                                            <option value="42-44 | S">42-44 | S</option>
+                                            <option value="42-44 | S">42-44 | S</option>
+                                            <option value="46-48 | L">46-48 | L</option>
+                                            <option value="48-50 | XL">48-50 | XL</option>
+                                        </select>
+                                        <label for="quantity" class="cart-opened__form__info__span">Кількість</label>
+                                        <select name="quantity" id="quantity" class="select quantity--select">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                        <span class="cart-opened__form__info__price">2 800 грн.</span>
+                                    </div>
+                                </div>
+                                <div class="cart-opened__form__price flex flex-space-between">
+                                    <span class="to--pay">До сплати</span>
+                                    <span class="to--pay">2 800</span>
+                                </div>
+                                <div class="flex cart-opened__form__info__futher">
+                                    <a href="catalog.html" class="link to--catalog">продовжити покупки</a>
+                                    <a href="cart.html" class="link link-btn to--cart">перейти до кошика</a>
+                                </div>
+                            </form>                           
+                        </div>
+
+
+                        <div class="description">
+                            <button class="description__accordion-btn button" data-panel="panel1">Про товар</button>
+                            <div class="description__info" id="panel1">
+                                <p class="paragraph item--description">Тепло, на яке кожен так довго чекав, здається прийшло. А разом з ним нова вишиванка під назвою LITO.</p>
+                                <p class="paragraph item--description">Створена в ніжному кремовому відтінку на тлі якого щедро розмістились польові квіти. Фактурні та різноманітні, кольорові, унікальні-саме такі, як спогади про літо дизайнерки Лілії Касянчук, котра через вишивку передала спогади із власного дитинства.
+                                </p>
+                                <p class="paragraph item--description">Сорочка стане невід’ємною частиною гардеробу не тільки на весняно- літній сезон, але й поверне вас до спогадів про літо в холодну пору року.
+                                </p>
+                                <p class="paragraph item--description">Якщо Ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти:)</p>
+                            </div>
+                        
+                            <button class="description__accordion-btn button" data-panel="panel2">Склад та догляд</button>
+                            <div class="description__info" id="panel2">
+                                <p class="paragraph item--description">Lorem ipsum odor amet, consectetuer adipiscing elit. Velit accumsan convallis rutrum auctor risus. Quam pellentesque vulputate nam dis turpis parturient. Potenti volutpat tortor lectus tempor habitant; nulla penatibus ridiculus. Nisl natoque egestas pellentesque class sem. Imperdiet sollicitudin sem phasellus; nunc nisl quis.</p>
+
+                                <p class="paragraph item--description">Morbi dictum placerat hac dis aliquet ex. Cubilia eu dis ad egestas natoque turpis eget hendrerit. Aliquet ultrices placerat varius cubilia penatibus cursus arcu mauris. Mus neque inceptos platea ultrices facilisis; fames aenean nisi adipiscing. Vestibulum primis libero, cubilia tortor ultrices erat aliquet. Parturient congue donec diam cras odio netus. Nibh commodo nec molestie ligula platea himenaeos. Orci vehicula fringilla hac consequat neque orci potenti et.</p>
+                            </div>
+                        
+                            <button class="description__accordion-btn button" data-panel="panel3">Доставка та оплата</button>
+                            <div class="description__info" id="panel3">
+                                <p class="paragraph item--description">Lorem ipsum odor amet, consectetuer adipiscing elit. Velit accumsan convallis rutrum auctor risus. Quam pellentesque vulputate nam dis turpis parturient. Potenti volutpat tortor lectus tempor habitant; nulla penatibus ridiculus. Nisl natoque egestas pellentesque class sem. Imperdiet sollicitudin sem phasellus; nunc nisl quis.</p>
+
+                                <p class="paragraph item--description">Morbi dictum placerat hac dis aliquet ex. Cubilia eu dis ad egestas natoque turpis eget hendrerit. Aliquet ultrices placerat varius cubilia penatibus cursus arcu mauris. Mus neque inceptos platea ultrices facilisis; fames aenean nisi adipiscing. Vestibulum primis libero, cubilia tortor ultrices erat aliquet. Parturient congue donec diam cras odio netus. Nibh commodo nec molestie ligula platea himenaeos. Orci vehicula fringilla hac consequat neque orci potenti et.</p>
+                            </div>
+                        
+                            <button class="description__accordion-btn button" data-panel="panel4">Відгуки</button>
+                            <div class="description__info" id="panel4">
+                                <p class="paragraph item--description">Lorem ipsum odor amet, consectetuer adipiscing elit. Velit accumsan convallis rutrum auctor risus. Quam pellentesque vulputate nam dis turpis parturient. Potenti volutpat tortor lectus tempor habitant; nulla penatibus ridiculus. Nisl natoque egestas pellentesque class sem. Imperdiet sollicitudin sem phasellus; nunc nisl quis.</p>
+
+                                <p class="paragraph item--description">dictum placerat hac dis aliquet ex. Cubilia eu dis ad egestas natoque turpis eget hendrerit. Aliquet ultrices placerat varius cubilia penatibus cursus arcu mauris. Mus neque inceptos platea ultrices facilisis; fames aenean nisi adipiscing. Vestibulum primis libero, cubilia tortor ultrices erat aliquet. Parturient congue donec diam cras odio netus. Nibh commodo nec molestie ligula platea himenaeos. Orci vehicula fringilla hac consequat neque orci potenti et.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suggestion">
+                    <h2 class="headline2">вам може сподобатися</h2>
+                    <div class="suggestion__nav" id="components">
+                        <button class="suggestion__nav__btn btn--prev button" id="goLeft"></button>
+                        <div class="suggestion__nav__carousel" id="carousel">
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link">
+                                    <div class="hover--div">
+                                        <img src="/images/suggest.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Вишиванка блакитного кольору з рослинним орнамz..</span>
+                                </a>
+                                <span class="item-price">3 400 грн.</span>
+                            </div>
+
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link">
+                                    <div class="hover--div">
+                                        <img src="/images/suggest1.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Легка блузка вільного крою з орнаментом Indi</span>
+                                </a>
+                                <span class="item-price">3 800 грн.</span>
+                            </div>
+
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link catalog--link">
+                                    <div class="hover--div">
+                                        <img src="/images/image 3.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Лляна вишиванка з геометричним орнаментом Nezalezhni</span>
+                                </a>
+                                <span class="item-price">4 200 грн.</span>
+                            </div>
+
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link">
+                                    <div class="hover--div">
+                                        <img src="/images/suggest3.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Лляна вишита сорочка чорного кольору SLOVO BLACK</span>
+                                </a>
+                                <span class="item-price">4 200 грн.</span>
+                            </div>
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link">
+                                    <div class="hover--div">
+                                        <img src="/images/suggest.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Вишиванка блакитного кольору з рослинним орнамz..</span>
+                                </a>
+                                <span class="item-price">3 400 грн.</span>
+                            </div>
+
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link">
+                                    <div class="hover--div">
+                                        <img src="/images/suggest1.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Легка блузка вільного крою з орнаментом Indi</span>
+                                </a>
+                                <span class="item-price">3 800 грн.</span>
+                            </div>
+
+                            <div class="catalog__item suggestion__nav__carousel__item" id="slide">
+                                <a href="" class="link catalog--link">
+                                    <div class="hover--div">
+                                        <img src="/images/image 3.png" alt="" class="suggest--img">
+                                        <img src="images/hover.png" alt="" class="hover--img mob--hidden">
+                                    </div>
+                                    <span class="catalog__item__name suggest--item-name">Лляна вишиванка з геометричним орнаментом Nezalezhni</span>
+                                </a>
+                                <span class="item-price">4 200 грн.</span>
+                            </div>
+
+        
+                        </div>
+                        <button class="suggestion__nav__btn btn--next button" id="goRight"></button>
+                    </div>
+                    <div class="scroll-line mob--hidden">
+                        <div class="scroll-line__progress"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="container footer--container">
+<!-- ---------FOOTER--------------------------------------------------------------------------------------- -->
+            <footer class="footer">
+                <div class="footer-container--xxl">
+                    <a href="#anchor" class="arrow-button"></a>
+                    <img src="/images/etnodim-logo.svg" alt="logo" class="logo logo--footer">
+                    <div class="grid grid--3col desktop--footer-info">
+                        <ul class="footer__list">
+                            <li><a href="" class="link footer__list__link">Про нас</a></li>
+                            <li><a href="" class="link footer__list__link">Команда</a></li>
+                            <li><a href="" class="link footer__list__link">Блог</a></li>
+                            <li><a href="" class="link link--special">Drabyna</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li><a href="" class="link footer__list__link">Цікава інформація</a></li>
+                            <li><a href="" class="link footer__list__link">Вакансії</a></li>
+                            <li><a href="" class="link footer__list__link">Доставка та оплата</a></li>
+                            <li><a href="" class="link link--special">Етнодім Маніфест</a></li>
+                        </ul>
+                        <div class="social">
+                            <span class="link social__span-underscore">Соціальні мережі</span>
+                            <ul class="flex flex-wrap social--icons">
+                                <li class="li"><a href="" class="social__fb-icon"></a></li>
+                                <li class="li"><a href=""class="social__yt-icon"></a></li>
+                                <li class="li"><a href=""class="social__email-icon"></a></li>
+                                <li class="li"><a href=""class="social__pinterest-icon"></a></li>
+                                <li class="li"><a href=""class="social__insta-icon"></a></li>
+                            </ul>
+                        </div>
+                        <div class="contacts">
+                            <span class="contacts__name">Контакти</span>
+                            <span class="mob">+38 097 888 92 92</span>
+                            <span class="contacts__adress">Україна, м. Київ, вул. Верхній Вал 58/28</span>
+                            <div class="flex flex-space-between opening--hours">
+                                <span class="contacts__opening-hours">пн-пт 10:00-20:00</span>
+                                <span class="contacts__opening-hours">сб-нд 11:00-19:00</span>
+                            </div>
+                        </div>
+                        <span class="copyright">&copy; «Етнодім» 2009-2021</span>
+                    </div>
+                </div>                    
+            </footer>
+        </div>
+
+    
+    <script src="/script.js" defer></script>
+
+</body>
+</html>
